@@ -8,7 +8,7 @@ This project processes **CMIP6** and **CMIP5** precipitation data for both **his
 
 - **Extract precipitation data** (`pr` variable) from CMIP6/CMIP5 **.nc** files.
 - **Convert precipitation units** from m/s to **mm/day**.
-- **Filter data** for the required historical period or SSP4.5 scenario.
+- **Filter data** for the required historical period or SSP scenario.
 - **Calculate time series** for specific latitude and longitude coordinates.
 - **Save processed data** to Excel files and text files.
 - **Calculate average precipitation** across coordinates for each model run.
@@ -18,7 +18,7 @@ This project processes **CMIP6** and **CMIP5** precipitation data for both **his
 ## Directory Structure
 
 - `scripts/`: Contains Python scripts for processing precipitation data.
-  - `process_precipitation_data.py`: Processes CMIP6/CMIP5 data for the **SSP4.5** scenario.
+  - `process_precipitation_data.py`: Processes CMIP6/CMIP5 data for the **SSP** scenario.
   - `process_historical_run.py`: Processes **historical model run** data from CMIP6/CMIP5 models.
   
 - `data/`: Placeholder directory for your input NetCDF data files (not part of the repository).
